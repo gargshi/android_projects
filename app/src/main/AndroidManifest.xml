@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CLU">
         <activity
-            android:name=".actAccount"
-            android:exported="true"
-            android:label="@string/title_activity_act_account"
-            android:theme="@style/Theme.CLU.NoActionBar" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

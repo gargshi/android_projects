@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
 //            Snackbar mySnackbar = Snackbar.make(v, "ACCESS GRANTED", Snackbar.LENGTH_SHORT);
 //            mySnackbar.show();
             Toast.makeText(MainActivity.this, "Access granted", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(MainActivity.this, actAccount.class);
+            //Intent intent = new Intent(MainActivity.this, SecondScreen.class);
             // start the activity connect to the specified class
-            startActivity(intent);
+            //startActivity(intent);
         }
     }
 }
